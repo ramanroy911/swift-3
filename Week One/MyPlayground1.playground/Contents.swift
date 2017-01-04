@@ -20,4 +20,8 @@ myButton1.setTitle("Test", for: .normal)
 myButton1.addTarget(responder, action: #selector(Responder.action), for: .touchUpInside)
 containerView.addSubview(myButton1)
 
+var textField = UITextField()
+textField.frame = CGRect(x: 0, y: 60, width: 100, height: 50)
+textField.backgroundColor = UIColor.red
+containerView.addSubview(textField)
 
