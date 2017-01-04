@@ -76,8 +76,8 @@ let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
 let val = NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: candidate)
 
 
-for index in 1...5 {
-    print("\(index) times 5 is \(index * 5)")
+for val in 1...5 {
+    print("\(val) times 5 is \(val * 5)")
 }
 
 for (index,val) in fullNameArr.enumerated() {
