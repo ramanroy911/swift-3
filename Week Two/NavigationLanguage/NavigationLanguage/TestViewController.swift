@@ -13,7 +13,7 @@ class TestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.green
-        self.title = "Test"
+        self.title = "Green"
         
         //self.navigationController?.pushViewController(ViewController(), animated: true)
     }
@@ -21,7 +21,7 @@ class TestViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        Utility.setNavigationBar(parent: self, title: "Main1", leftTitle: "Left1", rightTitle: "Right1")
+        Utility.setNavigationBar(parent: self, title: NSLocalizedString("TEST", comment: ""), leftTitle: "Left1", rightTitle: "Right1")
     }
 
     override func didReceiveMemoryWarning() {
