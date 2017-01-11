@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "809B3DB2CF41906254F83D7666E075B7EF94EC85" : 9223372036854775807,
+    "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6D8CC4E7-B1DE-4A94-83B8-0A1EB1A6B49C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "809B3DB2CF41906254F83D7666E075B7EF94EC85" : "",
+    "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E" : "swift3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyPlayground",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Week One\/MyPlayground.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramanroy911\/swift-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramanroy911\/swift-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "809B3DB2CF41906254F83D7666E075B7EF94EC85"
+    }
+  ]
+}
