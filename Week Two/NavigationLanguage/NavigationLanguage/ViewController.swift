@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var titleTest = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.red
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        Utility.setNavigationBar(parent: self, title: "Main", leftTitle: "Left", rightTitle: "Right")
+        Utility.setNavigationBar(parent: self, title: self.titleTest, leftTitle: "Left", rightTitle: "Right")
     }
     
     override func navLeftButtonTapped() {

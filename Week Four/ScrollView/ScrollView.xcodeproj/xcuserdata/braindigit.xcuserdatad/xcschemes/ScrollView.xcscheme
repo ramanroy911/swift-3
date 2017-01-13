@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F160501B1E25C81D008ACAC9"
-               BuildableName = "NavigationLanguage.app"
-               BlueprintName = "NavigationLanguage"
-               ReferencedContainer = "container:NavigationLanguage.xcodeproj">
+               BlueprintIdentifier = "A9E0EA411E2895C100617B5B"
+               BuildableName = "ScrollView.app"
+               BlueprintName = "ScrollView"
+               ReferencedContainer = "container:ScrollView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F160501B1E25C81D008ACAC9"
-            BuildableName = "NavigationLanguage.app"
-            BlueprintName = "NavigationLanguage"
-            ReferencedContainer = "container:NavigationLanguage.xcodeproj">
+            BlueprintIdentifier = "A9E0EA411E2895C100617B5B"
+            BuildableName = "ScrollView.app"
+            BlueprintName = "ScrollView"
+            ReferencedContainer = "container:ScrollView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -50,16 +50,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      language = "fr">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F160501B1E25C81D008ACAC9"
-            BuildableName = "NavigationLanguage.app"
-            BlueprintName = "NavigationLanguage"
-            ReferencedContainer = "container:NavigationLanguage.xcodeproj">
+            BlueprintIdentifier = "A9E0EA411E2895C100617B5B"
+            BuildableName = "ScrollView.app"
+            BlueprintName = "ScrollView"
+            ReferencedContainer = "container:ScrollView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F160501B1E25C81D008ACAC9"
-            BuildableName = "NavigationLanguage.app"
-            BlueprintName = "NavigationLanguage"
-            ReferencedContainer = "container:NavigationLanguage.xcodeproj">
+            BlueprintIdentifier = "A9E0EA411E2895C100617B5B"
+            BuildableName = "ScrollView.app"
+            BlueprintName = "ScrollView"
+            ReferencedContainer = "container:ScrollView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

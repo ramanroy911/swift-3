@@ -32,16 +32,16 @@ class Utility: NSObject {
         btnMenu.setTitleColor(UIColor.blue, for: .normal)
         btnMenu.addTarget(parent, action: #selector(parent.navLeftButtonTapped), for: .touchUpInside)
         let leftBarButtonItem = UIBarButtonItem(customView: btnMenu)
-        parent.navigationItem.leftBarButtonItem = leftBarButtonItem
+        //parent.navigationItem.leftBarButtonItem = leftBarButtonItem
         
-//        let btnMenu1 = UIButton();
-//        btnMenu1.contentHorizontalAlignment = .left;
-//        btnMenu1.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
-//        btnMenu1.setTitle(icon, for: .normal)
-//        btnMenu1.setTitleColor(UIColor.blue, for: .normal)
-//        btnMenu1.addTarget(parent, action: #selector(parent.navSecondLeftButtonTapped), for: .touchUpInside)
-//        let leftBarButtonItem1 = UIBarButtonItem(customView: btnMenu1)
-//        parent.navigationItem.leftBarButtonItems = [leftBarButtonItem,leftBarButtonItem1]
+        let btnMenu1 = UIButton();
+        btnMenu1.contentHorizontalAlignment = .left;
+        btnMenu1.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
+        btnMenu1.setTitle(icon, for: .normal)
+        btnMenu1.setTitleColor(UIColor.blue, for: .normal)
+        btnMenu1.addTarget(parent, action: #selector(parent.navSecondLeftButtonTapped), for: .touchUpInside)
+        let leftBarButtonItem1 = UIBarButtonItem(customView: btnMenu1)
+        parent.navigationItem.leftBarButtonItems = [leftBarButtonItem,leftBarButtonItem1]
     }
     class func setupRightButton(buttonIcon:String? = nil, parent:UIViewController){
         guard let icon = buttonIcon else{

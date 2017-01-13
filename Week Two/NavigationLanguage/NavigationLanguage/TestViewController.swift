@@ -15,13 +15,16 @@ class TestViewController: UIViewController {
         view.backgroundColor = UIColor.green
         self.title = "Green"
         
-        //self.navigationController?.pushViewController(ViewController(), animated: true)
+        let testVC = ViewController()
+        testVC.titleTest = "ffffffff"
+        //self.navigationController?.pushViewController(testVC, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         Utility.setNavigationBar(parent: self, title: NSLocalizedString("TEST", comment: ""), leftTitle: "Left1", rightTitle: "Right1")
+        
     }
 
     override func didReceiveMemoryWarning() {
