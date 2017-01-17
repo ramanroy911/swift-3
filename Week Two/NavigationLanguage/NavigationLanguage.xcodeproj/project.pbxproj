@@ -112,7 +112,7 @@
 				TargetAttributes = {
 					F160501B1E25C81D008ACAC9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = BKVK8S8R6M;
+						DevelopmentTeam = 6Z2JPQER44;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -299,7 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKVK8S8R6M;
+				DEVELOPMENT_TEAM = 6Z2JPQER44;
 				INFOPLIST_FILE = NavigationLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raman.NavigationLanguage;
@@ -312,7 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BKVK8S8R6M;
+				DEVELOPMENT_TEAM = 6Z2JPQER44;
 				INFOPLIST_FILE = NavigationLanguage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raman.NavigationLanguage;
