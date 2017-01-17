@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3AFBAE1A52412A550240ECD4306D1D54CC9114B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3AFBAE1A52412A550240ECD4306D1D54CC9114B5" : 9223372036854775807,
+    "BA0E3404D4783BC3161DC38D3B10962AFA5DAB0A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5A443A95-D50F-4880-B32F-F43E352F2C80",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3AFBAE1A52412A550240ECD4306D1D54CC9114B5" : "resources\/",
+    "BA0E3404D4783BC3161DC38D3B10962AFA5DAB0A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LocalNotification",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LocalNotification\/LocalNotification.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git1.braindigit.com:raman\/resources.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AFBAE1A52412A550240ECD4306D1D54CC9114B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git1.braindigit.com:raman\/ncell-website.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA0E3404D4783BC3161DC38D3B10962AFA5DAB0A"
+    }
+  ]
+}
