@@ -20,13 +20,17 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         
         testV.btnMenu1!.addTarget(self, action: #selector(ViewController.btnPressed1(_:)), for: .touchUpInside)
         
-               
+        testV.testLbl?.isUserInteractionEnabled = true
+        //let tapGesture = UITapGestureRecognizer(target: self, action: Selector(("tapBlurButton")))
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.tapBlurButton(_:)))
+        testV.testLbl?.addGestureRecognizer(tapGesture)
         
     }
     
-    func handleTap(sender: UITapGestureRecognizer? = nil) {
+    func tapBlurButton(_ sender: UITapGestureRecognizer) {
         print("Please Help!")
     }
+
     
     func btnPressed(_ button: UIButton){
         let optionMenu = UIAlertController(title: nil, message: "Choose Option", preferredStyle: .actionSheet)
