@@ -10,7 +10,7 @@ import UIKit
 let mySpecialNotificationKey = "com.andrewcbancroft.specialNotificationKey"
 class ViewController: UIViewController {
     
-    var btnMenu:UIButton?
+   
     var btnMenu1:UIButton?
     
     
@@ -20,17 +20,12 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.white
         
-        btnMenu                     = UIButton();
-        btnMenu!.frame              = CGRect(x: 100, y: 100, width: 100, height: 40)
-        btnMenu!.titleLabel?.font   = UIFont.boldSystemFont(ofSize: 30)
-        btnMenu!.setTitle("Test1", for: UIControlState())
-        btnMenu!.setTitleColor(UIColor.black, for: UIControlState())
-        btnMenu!.backgroundColor    = UIColor.red
-        btnMenu!.addTarget(self, action: #selector(self.btnPressed), for: .touchUpInside)
-        self.view.addSubview(btnMenu!)
+        Utility.saveDataToUserDefaults(data: "Test Data" as AnyObject, key: "SWIFT3")
+        
+       
         
         btnMenu1                     = UIButton();
-        btnMenu1!.frame              = CGRect(x: 0, y: 200, width: 250, height: 40)
+        btnMenu1!.frame              = CGRect(x: 50, y: 200, width: view.frame.width - (2 * 50), height: 50)
         btnMenu1!.titleLabel?.font   = UIFont.boldSystemFont(ofSize: 30)
         btnMenu1!.setTitle("Go To Second VC", for: UIControlState())
         btnMenu1!.setTitleColor(UIColor.black, for: UIControlState())
@@ -47,18 +42,7 @@ class ViewController: UIViewController {
 
     }
     
-    func btnPressed(){
-        print("Button Pressed")
-        
-        let data                                = ["data1":"TT"]
-        let dataToPass:[AnyHashable: Any]   = ["data": data]
-        
-        NotificationCenter.default.post(name: Notification.Name(rawValue: mySpecialNotificationKey), object: self, userInfo: dataToPass)
-        
-        
-        
-        
-    }
+   
     
     func secondBtnPressed(){
          print("Second Button Pressed")

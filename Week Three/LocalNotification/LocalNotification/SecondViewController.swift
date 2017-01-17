@@ -16,27 +16,14 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.yellow
+        
+        print(Utility.getUserDefaults(key: "SWIFT3"))
 
-        btnMenu                     = UIButton();
-        btnMenu!.frame              = CGRect(x: 0, y: 100, width: 250, height: 40)
-        btnMenu!.tag                = 12
-        btnMenu!.titleLabel?.font   = UIFont.boldSystemFont(ofSize: 30)
-        btnMenu!.setTitle("Go To First", for: UIControlState())
-        btnMenu!.setTitleColor(UIColor.black, for: UIControlState())
-        btnMenu!.backgroundColor    = UIColor.red
-        btnMenu!.addTarget(self, action: #selector(self.btnPressed(_:)), for: .touchUpInside)
-        self.view.addSubview(btnMenu!)
+       
         
     }
     
-    func btnPressed(_ Sender:UIButton){
-        
-        print("Tag : \(Sender.tag)")
-        
-        let firstVC = ViewController()
-        self.navigationController?.pushViewController(firstVC, animated: true)
-    }
-    
+   
    
     
     override func viewDidAppear(_ animated: Bool) {
@@ -57,10 +44,6 @@ class SecondViewController: UIViewController {
         let dataToPass:[AnyHashable: Any]   = ["data": data]
         
         NotificationCenter.default.post(name: Notification.Name(rawValue: mySpecialNotificationKey), object: self, userInfo: dataToPass)
-        
-        
-
-        
         
         self.navigationController?.popViewController(animated: true)
     }
