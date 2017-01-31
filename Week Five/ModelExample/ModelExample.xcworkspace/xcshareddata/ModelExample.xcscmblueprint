@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "809B3DB2CF41906254F83D7666E075B7EF94EC85" : 9223372036854775807,
+    "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BBDA6B2B-B67F-4A8A-92BD-C495FD2E7A13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "809B3DB2CF41906254F83D7666E075B7EF94EC85" : "",
+    "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E" : "swift3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ModelExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Week Five\/ModelExample\/ModelExample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramanroy911\/swift-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7BC13E5BAB94EA4E7E0734376479FA02D1CDC51E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramanroy911\/swift-3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "809B3DB2CF41906254F83D7666E075B7EF94EC85"
+    }
+  ]
+}
