@@ -20,9 +20,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         dataObject = []
-        //getData1()
+        getData1()
         //getData2()
-        getData3()
+        //getData3()
         
     }
 

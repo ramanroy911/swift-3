@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class FirstModel: NSObject {
 
-    var appUserID       = ""
+    var appUserID:Int   = 0
     var token           = ""
     var city            = ""
     var countryName     = ""
@@ -38,14 +38,19 @@ class FirstModel: NSObject {
             
             let userData            = JSON(userDa)
             
-            self.appUserID          = userData["appUserID"].stringValue
+            self.appUserID          = userData["appUserID"].intValue
             self.token              = userData["token"].stringValue
             self.city               = userData["city"].stringValue
             self.countryName        = userData["countryName"].stringValue
             self.email              = userData["email"].stringValue
             self.firstName          = userData["firstName"].stringValue
             self.lastName           = userData["lastName"].stringValue
+            
+            
+            
         }
+        
+        
         
     }
     
